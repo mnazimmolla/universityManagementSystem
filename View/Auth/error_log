@@ -1,0 +1,24 @@
+[13-May-2017 01:16:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ian2016_university'@'localhost' (using password: NO)' in /home/ian2016/public_html/university/Src/Auth/connect.php:437
+Stack trace:
+#0 /home/ian2016/public_html/university/Src/Auth/connect.php(437): PDO->__construct('mysql:host=loca...', 'ian2016_univers...', '')
+#1 /home/ian2016/public_html/university/View/Auth/saveStudent.php(22): App\Auth\connect->setStudent(Array)
+#2 {main}
+  thrown in /home/ian2016/public_html/university/Src/Auth/connect.php on line 437
+[20-May-2017 12:31:19 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ian2016_university'@'localhost' (using password: YES)' in /home/ian2016/public_html/university/Src/Auth/connect.php:437
+Stack trace:
+#0 /home/ian2016/public_html/university/Src/Auth/connect.php(437): PDO->__construct('mysql:host=loca...', 'ian2016_univers...', 'sys123')
+#1 /home/ian2016/public_html/university/View/Auth/saveStudent.php(22): App\Auth\connect->setStudent(Array)
+#2 {main}
+  thrown in /home/ian2016/public_html/university/Src/Auth/connect.php on line 437
+[25-May-2017 08:19:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ian2016_university'@'localhost' (using password: YES)' in /home/ian2016/public_html/university/Src/Auth/connect.php:437
+Stack trace:
+#0 /home/ian2016/public_html/university/Src/Auth/connect.php(437): PDO->__construct('mysql:host=loca...', 'ian2016_univers...', 'sys123')
+#1 /home/ian2016/public_html/university/View/Auth/saveStudent.php(22): App\Auth\connect->setStudent(Array)
+#2 {main}
+  thrown in /home/ian2016/public_html/university/Src/Auth/connect.php on line 437
+[13-Aug-2017 16:14:07 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ian2016_university'@'localhost' (using password: YES)' in /home/ian2016/public_html/university/Src/Auth/connect.php:437
+Stack trace:
+#0 /home/ian2016/public_html/university/Src/Auth/connect.php(437): PDO->__construct('mysql:host=loca...', 'ian2016_univers...', 'sys123')
+#1 /home/ian2016/public_html/university/View/Auth/saveStudent.php(22): App\Auth\connect->setStudent(Array)
+#2 {main}
+  thrown in /home/ian2016/public_html/university/Src/Auth/connect.php on line 437

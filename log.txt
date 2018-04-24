@@ -1,0 +1,10 @@
+1. Anyone can access Admin Dashborad by Link.
+4. module 7 -> register student cse-2017-001
+4. module 7 -> ajax will make a call and view last details of student by modal.
+5. module 5 -> remaining pop up problem.
+
+when i am going to assign a course it does not empty fields. //
+allocate Class room not working empty//
+
+enroll a new course val get problem by ajax. need val of course.
+so many problem in enroll course.
